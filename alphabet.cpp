@@ -7,13 +7,13 @@ int main()
     char n;
     cout<<"enter the value";
     cin>>n;
-       if(n=='a'||n=='A'||n=='e'||n=='E'||n=='i'||n=='I'||n=='o'||n=='O'||n=='u'||n=='U')
+       if((n>='a'&&n<='z')||(n>='A'&&n<='Z'))
     {
-    cout<<"it is vowel";
+    cout<<"it is alphabet";
     }
     else 
     {
-    cout<<"it is not vowel";
+    cout<<"it is not alphabet";
     }
     
 return 0;
