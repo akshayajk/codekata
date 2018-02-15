@@ -3,15 +3,15 @@ using namespace std;
 
 int main()
 {
-  int a,b,temp,i;
+  int a,b,t;
   cout<<"enter thevalue of and b";
   cin>>a>>b;
   cout<<"before swapping"<<a<<endl<<b;
 
   
-  temp=a;
+  t=a;
   a=b;
-  b=temp;
+  b=t;
   cout<<"after swapping"<<a<<endl<<b;
   
   
