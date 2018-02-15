@@ -13,6 +13,6 @@ int main()
   }
   else
   {
-      cout<<"it is not vowel";
+      cout<<"it is consonant";
   }
 }
