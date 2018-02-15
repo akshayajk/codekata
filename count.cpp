@@ -4,12 +4,12 @@ using namespace std;
 
 int main()
 {
-int m,a=0;
+int num,a=0;
 cout<<"Enter any num : ";
-cin>>m;
+cin>>num;
 while(m>0)
 {
-m=m/10;
+num=num/10;
 a++;
 }
 cout<<"\n no. of digits in given number is: "<<a;
