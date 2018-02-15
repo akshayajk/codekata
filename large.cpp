@@ -10,17 +10,14 @@ int main()
   cin>>c;
   if(a>b&&a>c)
   {
-      cout<<"a is biggest number"<<endl;
-      cout<<"A="<<a;
+      cout<<"a is biggest number";
   }
   else if(b>c)
   {
-      cout<<" b is biggest number"<<endl;
-      cout<<"A="<<b;
+      cout<<" b is biggest number";
   }
   else
   {
-      cout<<"c is biggest number"<<endl;
-      cout<<"A="<<c<<endl;
+      cout<<"c is biggest number";
   }
 }
