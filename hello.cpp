@@ -2,13 +2,13 @@
 using namespace std;
 class Program
 {
-	int i,n;
+	int i,m;
 	public:
 	void display()
 	{
 		cout<<"enter your number"<<endl;
-		cin>>n;
-		for(i=1;i<=n;i++)
+		cin>>m;
+		for(i=1;i<=m;i++)
 		{
 			cout<<"hello";
 		
