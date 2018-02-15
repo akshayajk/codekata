@@ -2,7 +2,7 @@
 using namespace std;
 class Program
 {
-	int a[100],sum=0,i,n,b;
+	int c[100],sum=0,i,n,b;
 	public:
 	void get()
 	{
@@ -12,7 +12,7 @@ class Program
 		cin>>b;
 		for(i=0;i<n;i++)
 		{
-			cin>>a[i];
+			cin>>c[i];
 		
 		}
 	}
@@ -20,7 +20,7 @@ class Program
 	{
 		for(i=0;i<=b;i++)
 		{
-			sum=sum+a[i];
+			sum=sum+c[i];
 		}
 		cout<<"the answer is"<<sum;
 		
