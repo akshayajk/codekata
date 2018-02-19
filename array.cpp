@@ -10,17 +10,17 @@ class Program
 		cout<<"enter your number";
 		cin>>n;
 		cin>>b;
-		for(i=0;i<n;i++)
+		for(i=1;i<=n;i++)
 		{
-			cin>>c[i];
+			cout<<i<<"\t";
 		
 		}
 	}
 	void display()
 	{
-		for(i=0;i<=b;i++)
+		for(i=1;i<=b;i++)
 		{
-			sum=sum+c[i];
+			sum=sum+i;
 		}
 		cout<<"the answer is"<<sum;
 		
@@ -32,5 +32,4 @@ a.get();
 a.display();
 return 0;
 }
-
 
