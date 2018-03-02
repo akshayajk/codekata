@@ -21,5 +21,5 @@ for(i=1;i<=10;i++)
     }
     
 }
-cout<<"the value is"<<a[i];
+cout<<"the value is"<<a[0];
 }
