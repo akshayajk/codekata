@@ -1,3 +1,4 @@
+
 #include <iostream>
 using namespace std;
 class Prime
@@ -10,18 +11,14 @@ class Prime
         cin>>n;
         for(i=2;i<n;i++)
         {
-            if(n%i==0)
+            if(n%i == 0)
             {
-                count++;
+                count = 1;
                 break;
             }
         
         }
-    }
-    public:
-    void display()
-    {
-        if(count==0)
+        if(count == 0)
         {
             cout<<"it is prime";
         }
@@ -32,13 +29,13 @@ class Prime
     
         
     }
+    public:
+    
 };
 int main()
 {
     Prime p;
     p.calculate();
-    p.display();
 
     return 0;
 }
-
