@@ -1,14 +1,21 @@
 #include <iostream>
-#include<string>
-
 using namespace std;
 
 int main()
 {
- string a;
- cin>>a;
- cout<<"string length="<<a.size();
-
+    string str;
+    int count = 0,i;
+    cout << "Enter a sentence: ";
+    getline(cin, str);
+    for(i = 1;i <= str.length();i++)
+    {
+        if(str[i] == ' ')
+        {
+            continue;
+        }
+        count++;
+      
+    }
+    cout<<count;
     return 0;
 }
-
