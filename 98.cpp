@@ -2,15 +2,15 @@
  using namespace std;
 int main() 
 {
-	int n,array[30],i;
+	int n,arr[30],i;
 	cin>>n;
 	for(i=1;i<=n;i++)
 	{
-		cin>>array[i];
+		cin>>arr[i];
 	}
 	for(i=1;i<=n;i++)
 	{
-		if(i!=array[i])
+		if(i!=arr[i])
 		{
 			cout<<i;
 			break;
